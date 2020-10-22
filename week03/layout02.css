@@ -1,1 +1,52 @@
 
+body{
+  margin: 10 auto;
+}
+
+header{
+  background-color: #e6ccff;
+   width: 100%;
+  height: 20vh;
+}
+
+nav{
+  background-color: #b3ffb3;
+  width: 100%;
+  height: 5vh;
+}
+
+main{
+  width: 65%;
+  float: left;
+}
+
+
+section{
+background-color: #b3d9ff;
+  height: 30vh;
+}
+
+
+article{
+  
+  background-color: #ffb3ff;
+  height: 30vh;
+}
+
+
+aside{
+  background-color: #ffff99;
+  width: 35%;
+  float: left;
+  min-height: 60vh ;
+  
+}
+
+Footer{
+  background-color: #b3ffe6;
+  width: 100%;
+  height: 10vh;
+  float: left;
+  
+  
+}
