@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout 2</title>
+  <link rel="stylesheet" href="layout02.css">
+</head>
+
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #cccc;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #add8e6;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+  <header>Dallas College</header>
+  <nav>
+    <div class="navbar">
+      <a href="#news">News</a>
+    <a href="#news">What Is Your Plan</a>
+  <div class="dropdown">
+
+    <button class="dropbtn"> Type Of Student?
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+<a href="https://econnect.dcccd.edu/FutureStudentMenu.jsp">Future Student Menu</a>
+<a href="https://econnect.dcccd.edu/CreditStudentMenu.jsp">Current Credit Student Menu </a>
+<a href="https://econnect.dcccd.edu/CEStudentMenu.jsp">Continuing education/Workforce training student menu</a>
+<a href="https://econnect.dcccd.edu/FacultyMenu.jsp">Faculty menu</a>
+<a href="https://econnect.dcccd.edu/EmployeeMenu.jsp">Employee menu</a>
+<a href="https://econnect.dcccd.edu/RetireeMenu.jsp">Retirement you </a>
+<a href="https://econnect.dcccd.edu/RetentionAlertMenu.jsp">Retention alert</a>
+
+    </div>
+  </div> 
+</div>
+
+  <main>
+  <section>Explore Your Pathway</section>
+  <section>Ways We Can Help:</section>
+  <article>Contact information</article>
+  </main>
+
+  <footer>Our Locations</footer>
+  
+</body>
+</html>
 
