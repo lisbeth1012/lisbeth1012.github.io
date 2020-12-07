@@ -11,6 +11,8 @@
       var areaCode = document.getElementById("theCode").options[document.getElementById("theCode").selectedIndex].value;
       switch (parseInt(areaCode))
       {
+           case 101:
+          msg = "You did not select a city" + areaCode;
         case 617:
           msg = "Boston's area code is " + areaCode;
     
@@ -35,7 +37,7 @@ Select a City:
 <form action="AreaCodes.html" method="post" name="theForm"
       onsubmit="checkTheCode(); return false;">
   <select name="theCode" id="theCode">
-    <option value="">-- Select a City --</option>
+    <option value="101">-- Select a City --</option>
     <option value="617">Boston</option>
     <option value="212">Manhattan</option>
     <option value="415">San Francisco</option>
